@@ -211,7 +211,8 @@ function addElement() {
 var p = document.getElementById(
   "whole");
 var c = document.createElement("a");
-
+c.setAttribute("href",
+"https://convert-seconds.imfast.io/"
 );
 c.setAttribute("id", "banner");
 c.innerHTML = "";
