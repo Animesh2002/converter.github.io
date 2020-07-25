@@ -211,8 +211,7 @@ function addElement() {
 var p = document.getElementById(
   "whole");
 var c = document.createElement("a");
-c.setAttribute("href",
-  "https://bharat-deora.github.io/Seconds-Converter"
+
 );
 c.setAttribute("id", "banner");
 c.innerHTML = "";
